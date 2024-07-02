@@ -58,3 +58,23 @@
 2. Application of materials (glue and solder paste) to printed circuit boards, as well as tinning of component terminals
 3. Completion of current orders and preparation of equipment for future orders
 4. Intermediate quality checks of solder paste and glue application, as well as visual inspection of PCB assemblies
+
+**Education**
+**St. Petersburg State University of Service and Economics Management**
+**Management of the organization**
+<p>2017-09-01 – 2012-06-28</p>
+
+**Courses**
+**Innopolis University**
+<p>Data Analyst</p>
+<p>2020-09-06 – 2020-11-30</p>
+
+**Languages**
+<p>english - A2/B1</p>
+<p>russian - native</p>
+
+**Websites and links**
+| :-: | :-: |
+|VK|[Это ссылка на VK](https://vk.com/anastasia_st13)|
+|Telegram|@Nastya_S13|
+|GitHub|Nastya-St13|
