@@ -78,3 +78,11 @@
 |VK|[Это ссылка на VK](https://vk.com/anastasia_st13)|
 |Telegram|@Nastya_S13|
 |GitHub|Nastya-St13|
+
+**Professional skills**
+<p>I own the following software: OS Windows, MS Office (Word, Excel, PowerPoint), Microsoft Dynamics AX, MS Navision, 1C-Bitrix: Site management, 1C:UNF (as 1C:Drive), Bitrix24 CRM, electronic document management</p>
+
+**Additional information** 
+1. Rapid learning of new software and absorption of new information, a responsible attitude towards work, diligence, timely completion of tasks, the ability to work in a multi-tasking environment.
+2. Commitment to professional growth and personal development; readiness for training/re-training if necessary. 
+3. Absence of negative habits.
