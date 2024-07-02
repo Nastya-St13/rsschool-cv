@@ -2,7 +2,7 @@
 ||| :- | -: | 
 |Country|Russia|
 |City|Veliky Novgorod|
-|Phone|+7 905 292 33 22|
+|Phone|+79052923322|
 |Email|nastya13-89@yandex.ru|||
 
 **Professional resume** 
