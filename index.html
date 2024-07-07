@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="icon" href="assets/ico/github.ico">
+		<link rel="stylesheet" href="style.css">
+		<title>CV</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="header-container">
+					<nav class="nav">
+						<ul class="nav-list">
+							<li class="nav-list-item"><a href="#summary" class="active-item">Summary</a></li>
+							<li class="nav-list-item"><a href="#skills " class="active-item">Skills</a></li>
+							<li class="nav-list-item"><a href="#code " class="active-item">Code</a></li>
+							<li class="nav-list-item"><a href="#work-experience" class="active-item">Work-experience</a></li>
+							<li class="nav-list-item"><a href="#education" class="active-item">Education</a></li>
+							<li class="nav-list-item"><a href="#languages" class="active-item">Languages</a></li>
+							<li class="nav-list-item"><a href="#contacts" class="active-item">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+            <main class="main-content">
+				<h1 class="section-title">Anastasia Stepanova</h1>
+				<div class="main-container">
+					<section class="section" id="profile">
+						<img class="section-title-img" src="assets/img/myphoto.jpg" width="213" height="340" alt="Photo">
+					</section>
+					<section class="section" id="summary">
+						<h2 class="section-title">Summary</h2>
+							<p>I have experience in a variety of fields, including sales, technical support, and marketing. Since 2017, I have worked at PC Volkhovets LLC, where I have gained valuable experience in the industry.</p>
+							<p>I recently started studying front end and there is not enough experience yet, but there is a great desire to change my life and start doing interesting and in-demand work! I am able to work effectively in a team environment, quickly learning new programs and technologies. I have a strong work ethic and am able to handle a large volume of information.</p>
+							<p>My ability to adapt to new situations and learn quickly makes me an asset to any team.</p>
+					</section>
+				</div>
+				<section class="section" id="skills">
+					<h2 class="section-title">Skills</h2>
+					<ul class="skills-list">
+						<li class="skills-item">HTML - I can make a simple layout. I know the basic tags and attributes
+							<img class="marker" src="assets/svg/ellipse.svg" width="9" height="9" alt="Marker">
+						</li>
+						<li class="skills-item">CSS - I know and apply the basic styles
+							<img class="marker" src="assets/svg/ellipse.svg" width="9" height="9" alt="Marker">
+						</li>
+						<li class="skills-item">JavaScript - I know basic functions, arrays, and loops are and I can use them
+							<img class="marker" src="assets/svg/ellipse.svg" width="9" height="9" alt="Marker">
+						</li>
+						<li class="skills-item">GitHub - Minimum skills
+							<img class="marker" src="assets/svg/ellipse.svg" width="9" height="9" alt="Marker">
+						</li>
+					</ul>
+				</section>
+					<section class="section" id="code">
+					<div class="section-code">
+						<h2 class="section-title">Code</h2>
+						<img class="section-code-img" src="assets/gif/black-white-theme.gif" width="400" height="300" alt="Black white switch">
+						<pre>
+							<code>
+	darkThemeButton.onclick = function () {
+		document.body.classList.add('dark');
+		lightThemeButton.classList.remove('active');
+		darkThemeButton.classList.add('active');
+	}
+	lightThemeButton.onclick = function () {
+		document.body.classList.remove('dark');
+		darkThemeButton.classList.remove('active');
+		lightThemeButton.classList.add('active');	
+	}
+							</code>
+						</pre>
+					</div>
+				</section>
+				<section class="section" id="work-experience">
+					<h2 class="section-title">Work experience</h2>
+						<ul class="work-experience-list">
+							<li class="place-work">
+								<h3 class="work-experience-title">Document management manager</h3>
+								<time datetime="2023-03-01">2023, March</time> - <time datetime="2024-07-05">Until now</time>
+								<p>PC Volkhovec LLC</p>
+								<ol class="work-points">
+									<li>Requesting documents from the counterparty</li>
+									<li>Preparing contracts and acts for approval</li>
+									<li>Creating invoices for payment</li>
+									<li>Signing documents electronically</li>
+									<li>Entering data into the 1C:UNF (as 1C:Drive) program and creating accruals</li>
+								</ol>
+							</li>
+							<li class="place-work">
+								<h3 class="work-experience-title">Marketing assistant, Advertising manager</h3>
+								<time datetime="2017-07-27">2017, July</time> - <time datetime="2023-02-28">2023, February</time>
+								<p>PC Volkhovec LLC</p>
+								<ol class="work-points">
+									<li>Implementation of procurement of goods and souvenirs</li>
+									<li>Organization of packing and shipping of souvenirs and promotional materials from the warehouse</li>
+									<li>Development of content for advertising media, such as websites and catalogs</li>
+									<li>Coordination and execution of TV projects, from coordination with counterparties to release of broadcasts</li>
+									<li>Support for the company website, including content filling</li>
+									<li>Participation in preparation of corporate events</li>
+								</ol>
+							</li>
+							<li class="place-work">
+								<h3 class="work-experience-title">Specialist of the Technical Support Service</h3>
+								<time datetime="2017-04-01">2017, April</time> - <time datetime="2017-07-21">2017, July</time>
+								<p>Rostelecom PLC</p>
+								<ol class="work-points">
+									<li>Processing and analyzing applications, as well as organizing the resolution of detected malfunctions and complaints regarding poor-quality telephone services, broadband, and IPTV provided using ADSL and PON/FTTx technologies</li>
+									<li>Supporting installation efforts, resolving technical issues during the setup of communication services, activating broadband services, and IPTV</li>
+									<li>Performing testing and diagnostics on subscriber lines using specialized software</li>
+									<li>Providing updates to subscribers regarding damage resolution</li>
+								</ol>
+							</li>
+						</ul>
+				</section>
+				<section class="section" id="education">
+					<h2 class="section-title">Education</h2>
+					<div class="section-title-education">
+						<h3>St. Petersburg State University of Service and Economics Management</h3>
+							<p>Management of the organization</p>
+							<time datetime="2007-09-01">2007, September</time> - <time datetime="2012-06-28">2012, June</time>
+					</div>
+				</section>
+				<section class="section" id="languages">
+					<h2 class="section-title">Languages</h2>
+					<div class="section-title-languages">
+						<p><strong>Russian</strong> - native</p>
+						<p><strong>English</strong> - A2/B1 pre-intermediate</p>
+					</div>
+				</section>
+					<section class="section" id="contacts">
+					<img class="contacts-img" src="assets/img/map1.png" width="655" height="352" alt="Map">		
+					<div class="contacts-content">
+						<h2 class="section-title">Contacts</h2>
+						<ul class="contacts-list">
+							<li class="contacts-item">
+								<h3>Address:</h3>
+								<address>Russia, Veliky Novgorod</address>
+							</li>
+							<li class="contacts-item">
+								<h3>Phone:</h3>
+								<a href="tel:+89052923322">+7 (905) 292-33-22</a>
+							</li>
+							<li class="contacts-item">
+								<h3>E-mail:</h3>
+								<a href="mailto:Nastya13-89@yandex.ru">Nastya13-89@yandex.ru</a>
+							</li>
+							<li class="contacts-item">
+								<h3>Social network</h3>
+							</li>
+						</ul>
+						<ul class="contacts-item-1">
+							<li>
+								<a class="icons" href="https://vk.com/anastasia_st13">
+									<img src="assets/svg/vk.svg" width="40" height="40" alt="VK">
+								</a>
+							</li>
+							<li>
+								<a class="icons" href="https://t.me/Nastya_S13">
+									<img src="assets/svg/telegram.svg" width="30" height="30" alt="Telegram">
+								</a>
+							</li>
+						</ul>
+					</div>	
+				</section>
+			</main>	
+            <footer class="footer">
+				<div class="footer-container">
+					<section class="logo">
+						<a href="https://rs.school/courses/javascript-ru"><img src="assets/svg/rs-school-logo.svg" width="150" height="150" alt="Логотип GitHub"></a>		
+					</section>
+					<section class="footer-link">
+						<p class="github-link"><a href="https://github.com/Nastya-St13/rsschool-cv"><img src="assets/svg/github.svg" width="50" height="50" alt="GitHub"></a></p>
+						<p>2023</p>
+					</section>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>   
